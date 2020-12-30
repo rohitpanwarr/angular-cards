@@ -6,5 +6,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cards';
+  posts = [
+    {
+      title: 'Neat Tree',
+      imageUrl: 'assets/tree.jpeg',
+      username: 'nature',
+      content: 'I saw this neat tree today'
+    },
+    {
+      title: 'Snowy Mountain',
+      imageUrl: 'assets/mountain.jpeg',
+      username: 'mountain',
+      content: 'Picture of snowy mountain'
+    },
+    {
+      title: 'Biking',
+      imageUrl: 'assets/biking.jpeg',
+      username: 'biking',
+      content: 'biking here'
+    }
+  ];
 }
